@@ -98,4 +98,62 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="cordova-android-play-services-gradle-release" spec="^4.0.0">
+        <variable name="PLAY-SERVICES-VISION" value="17.0.2" />
+        <variable name="PLAY-SERVICES-LOCATION" value="16.0.0" />
+        <variable name="PLAY-SERVICES-BASE" value="16.0.1" />
+        <variable name="PLAY-SERVICES-AWARENESS" value="16.0.0" />
+        <variable name="PLAY-SERVICES-ADS" value="18.0.0" />
+        <variable name="PLAY-SERVICES-ADS-IDENTIFIER" value="17.0.0" />
+        <variable name="PLAY-SERVICES-ADS-LITE" value="18.0.0" />
+        <variable name="PLAY-SERVICES-AFS-NATIVE" value="17.0.0" />
+        <variable name="PLAY-SERVICES-ANALYTICS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-ANALYTICS-IMPL" value="17.0.0" />
+        <variable name="PLAY-SERVICES-APPINVITE" value="18.0.0" />
+        <variable name="PLAY-SERVICES-AUDIENCE" value="17.0.0" />
+        <variable name="PLAY-SERVICES-AUTH" value="17.0.0" />
+        <variable name="PLAY-SERVICES-AUTH-API-PHONE" value="17.0.0" />
+        <variable name="PLAY-SERVICES-BASEMENT" value="17.0.0" />
+        <variable name="PLAY-SERVICES-CAST" value="17.0.0" />
+        <variable name="PLAY-SERVICES-CAST-FRAMEWORK" value="17.0.0" />
+        <variable name="PLAY-SERVICES-CLEARCUT" value="17.0.0" />
+        <variable name="PLAY-SERVICES-CRONET" value="17.0.0" />
+        <variable name="PLAY-SERVICES-DRIVE" value="17.0.0" />
+        <variable name="PLAY-SERVICES-FIDO" value="18.0.0" />
+        <variable name="PLAY-SERVICES-FITNESS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-FLAGS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-GAMES" value="18.0.0" />
+        <variable name="PLAY-SERVICES-GASS" value="18.0.0" />
+        <variable name="PLAY-SERVICES-GCM" value="17.0.0" />
+        <variable name="PLAY-SERVICES-IDENTITY" value="17.0.0" />
+        <variable name="PLAY-SERVICES-IID" value="17.0.0" />
+        <variable name="PLAY-SERVICES-INSTANTAPPS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MAPS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MEASUREMENT" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MEASUREMENT-API" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MEASUREMENT-IMPL" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MEASUREMENT-SDK" value="17.0.0" />
+        <variable name="PLAY-SERVICES-MEASUREMENT-SDK-API" value="17.0.0" />
+        <variable name="PLAY-SERVICES-NEARBY" value="17.0.0" />
+        <variable name="PLAY-SERVICES-OSS-LICENSES" value="17.0.0" />
+        <variable name="PLAY-SERVICES-PANORAMA" value="17.0.0" />
+        <variable name="PLAY-SERVICES-PHENOTYPE" value="17.0.0" />
+        <variable name="PLAY-SERVICES-PLACES" value="17.0.0" />
+        <variable name="PLAY-SERVICES-PLACES-PLACEREPORT" value="17.0.0" />
+        <variable name="PLAY-SERVICES-PLUS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-SAFETYNET" value="17.0.0" />
+        <variable name="PLAY-SERVICES-STATS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-TAGMANAGER" value="17.0.0" />
+        <variable name="PLAY-SERVICES-TAGMANAGER-API" value="17.0.0" />
+        <variable name="PLAY-SERVICES-TAGMANAGER-V4-IMPL" value="17.0.0" />
+        <variable name="PLAY-SERVICES-TASKS" value="17.0.0" />
+        <variable name="PLAY-SERVICES-VISION-COMMON" value="18.0.0" />
+        <variable name="PLAY-SERVICES-VISION-IMAGE-LABEL" value="18.0.0" />
+        <variable name="PLAY-SERVICES-WALLET" value="17.0.0" />
+        <variable name="PLAY-SERVICES-WEARABLE" value="17.0.0" />
+    </plugin>
+    <allow-navigation href="http://192.168.8.121:8100" />
+    <plugin name="cordova-sqlite-storage" spec="^5.1.0" />
+    <plugin name="cordova-plugin-smileid" spec="https://github.com/smileidentity/SmileIDIonic.git" />
+    <engine name="android" spec="7.0.0" />
 </widget>
