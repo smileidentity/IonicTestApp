@@ -154,6 +154,7 @@
     </plugin>
     <allow-navigation href="http://192.168.8.121:8100" />
     <plugin name="cordova-sqlite-storage" spec="^5.1.0" />
-    <plugin name="cordova-plugin-smileid" spec="https://github.com/smileidentity/SmileIDIonic.git" />
     <engine name="android" spec="7.0.0" />
+    <engine name="ios" spec="~4.5.5" />
+    <plugin name="cordova-plugin-smileid" spec="../SmileIDIonic" />
 </widget>

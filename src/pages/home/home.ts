@@ -63,7 +63,7 @@ export class HomePage {
 
   }
 
-  async enrolWithoutID() {
+ enrolWithoutID() {
     let loading = this.loadingController.create({
       cssClass: 'my-custom-class',
       content: 'Please wait...',
@@ -86,7 +86,7 @@ export class HomePage {
           alert("Enrolled Failed : " + err);
         })
       } else {
-        alert("Enrolled cancelled");
+        alert("ID Capture Failed :" + JSON.stringify(result));
       }
     }).catch(err => {
       alert("ID Capture Failed :" + err);
@@ -103,6 +103,7 @@ export class HomePage {
     let d = new Date();
     var n = d.getTime();
     let tag = "mic" + n;
+    console.log("JAPHET");
     that.smile.captureSelfie(tag).then(result => {
       if (result["SMILE_ID_RESULT"] === "success") {
         that.smile.captureID(tag).then(result => {
@@ -118,13 +119,15 @@ export class HomePage {
               alert("Enrolled Failed : " + err);
             })
           } else {
-            alert("Enrolled cancelled");
+            console.log(result["SMILE_ID_RESULT"])
+            alert("Enrolled cancelled" + result);
           }
         }).catch(err => {
           alert("ID Capture Failed :" + err);
         })
       } else {
-        alert("Enrolled cancelled");
+        console.log(result["SMILE_ID_RESULT"])
+        alert("Enrolled cancelled" + result);
       }
     }).catch(err => {
       alert("ID Capture Failed :" + err);
